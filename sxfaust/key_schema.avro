@@ -1,0 +1,9 @@
+{
+    "namespace": "com.smaxtec.beehive.models.avro",
+    "type": "record",
+    "name": "Id",
+    "fields": [
+        {"name": "id", "type": "string"},
+        {"name": "organisation_id", "type": ["string","null"], "default": "null"}
+    ]
+}

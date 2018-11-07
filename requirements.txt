@@ -1,0 +1,8 @@
+pytest>=2.8.5
+pytest-cov>=2.2.1
+pytest-pep8>=1.0.6
+mock>=1.3.0
+confluent-kafka[avro]==0.11.5
+-e git+git://github.com/wuttem/faust.git#egg=faust[fast,rocksdb]
+asynctest>=0.12.2
+pytest-asyncio

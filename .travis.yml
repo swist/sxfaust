@@ -1,0 +1,21 @@
+sudo: required
+
+services:
+  - docker
+language: python
+env:
+  - TEST=TEST
+python:
+  - "3.6"
+  - "3.7"
+before_install:
+  - sleep 1
+install:
+  - pip install -r requirements.txt
+  - pip install .
+before_script:
+  - sleep 1
+script:
+  - pytest tests
+after_success:
+  - sleep 1
