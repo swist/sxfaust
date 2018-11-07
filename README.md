@@ -1,5 +1,7 @@
 # sxfaust
 
+[![Build Status](https://travis-ci.org/wuttem/sxfaust.svg?branch=master)](https://travis-ci.org/wuttem/sxfaust)
+
 Faust App with Avro Schema registry and smaxtec key schema (raw).
 
 Integrated smaXtec partitioner
