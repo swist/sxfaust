@@ -7,7 +7,6 @@ env:
   - TEST=TEST
 python:
   - "3.6"
-  - "3.7"
 before_install:
   - sleep 1
 install:
