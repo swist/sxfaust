@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import unittest
-import pendulum
 import mock
 
 from sxfaust import App, Record
